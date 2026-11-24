@@ -22,6 +22,7 @@
   const counter = document.getElementById('result-count');
   const clear = document.getElementById('clear-search');
   const cards = Array.from(grid.querySelectorAll('.paper-card'));
+  const totalWorks = cards.length;
   let active = 'All';
   const normalize = (s) => (s || '').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
   function refresh(updateHistory = true) {
@@ -41,7 +42,7 @@
       btn.classList.toggle('is-active', activeButton);
       btn.setAttribute('aria-pressed', String(activeButton));
     });
-    counter.textContent = matched === 50 ? 'Showing all 50 works' : `Showing ${matched} of 50 works`;
+    counter.textContent = matched === totalWorks ? `Showing all ${totalWorks} works` : `Showing ${matched} of ${totalWorks} works`;
     empty.hidden = matched !== 0;
     if (updateHistory && ['http:', 'https:'].includes(window.location.protocol)) {
       const url = new URL(window.location.href);
