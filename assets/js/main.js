@@ -41,7 +41,7 @@
       btn.classList.toggle('is-active', activeButton);
       btn.setAttribute('aria-pressed', String(activeButton));
     });
-    counter.textContent = matched === 40 ? 'Showing all 40 works' : `Showing ${matched} of 40 works`;
+    counter.textContent = matched === 50 ? 'Showing all 50 works' : `Showing ${matched} of 50 works`;
     empty.hidden = matched !== 0;
     if (updateHistory && ['http:', 'https:'].includes(window.location.protocol)) {
       const url = new URL(window.location.href);
