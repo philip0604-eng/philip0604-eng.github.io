@@ -167,3 +167,14 @@ img,svg{max-width:100%}h1,h2,h3,p,blockquote{margin:0}p{font-size:15px}.wrap{max
 .curated-paper-step{color:#9f6e54;display:block;font-size:9px;font-weight:800;letter-spacing:.1em;margin-bottom:6px}
 .curated-paper-note p{color:#62776b;font-size:11.5px;line-height:1.6}
 @media(max-width:650px){.curated-route{padding:25px 21px;margin-bottom:29px}.curated-route-actions>span{width:100%}.curated-route h2{font-size:31px}.curated-route-kicker{gap:6px}}
+
+/* Author-selected research question memberships (2026-11-26) */
+.ai-route-lenses{margin-top:1.55rem;padding:1.3rem 1.35rem;background:#eef1ea;border:1px solid #dce4d9;border-left:3px solid #719482;}
+.ai-route-lenses .eyebrow{color:#9d674d;}
+.ai-route-disclaimer{margin:.65rem 0 1.1rem;color:#61756b;font-size:.8rem;line-height:1.65;}
+.ai-route-lenses ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:.7rem 1.1rem;}
+.ai-route-lenses li{border-top:1px solid #c9d5c7;padding-top:.75rem;}
+.ai-route-lenses li a{color:#285d4e;font-weight:700;text-decoration:none;border-bottom:1px solid #9daf9e;font-size:.84rem;}
+.ai-route-lenses li a:hover{color:#a36c4b;}
+.ai-route-lenses li p{font-size:.8rem;line-height:1.55;color:#61756b;margin:.45rem 0 0;}
+@media(max-width:650px){.ai-route-lenses{padding:1rem 1.05rem;}.ai-route-lenses ul{grid-template-columns:1fr;}}

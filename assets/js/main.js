@@ -29,223 +29,344 @@
   const slugToCard = new Map(cards.map(card => [getSlug(card), card]));
   const ROUTES = {
   "monetary-inflation": {
+    "label": "Monetary Design & Inflation",
     "title": "How can monetary design affect inflation?",
-    "intro": "A focused comparison of restricted purchasing rights, idle supplier capacity, endogenous supply, and price-stabilization rules. The broad monetary proposals are followed by papers that identify conditions under which inflation can still occur.",
+    "intro": "Begin with competing theories of money and fungibility. Move through prices, idle capacity, household behavior and macroeconomic stability; then test institutional implementation, financing, and verifiable delivery.",
     "papers": [
       [
         "monetary-design-and-inflation",
         "START HERE",
-        "The central conditional framework for prices, sectoral capacity, and restricted transfers."
-      ],
-      [
-        "purpose-bound-transfers-idle-capacity-and-inflation",
-        "THE TRANSFER TEST",
-        "Compares restricted claims and cash while accounting for idle capacity and settlement obligations."
-      ],
-      [
-        "optimal-price-stabilization-with-purpose-bound-money",
-        "DYNAMIC POLICY",
-        "Examines capacity investment, forward demand, and state-contingent conversion rules."
-      ],
-      [
-        "an-analysis-of-demand-and-supply-under-purpose-bound-money",
-        "MICROECONOMIC CHANNEL",
-        "Studies household demand, suppliers, and equilibrium responses to purpose-bound purchasing rights."
-      ],
-      [
-        "mechanism-design-for-countering-stagflation",
-        "COST-PUSH SHOCKS",
-        "Investigates input scarcity and commodity-price shocks, a distinct source of inflation."
+        "An inflation-focused framework linking purpose-bound purchasing rights to capacity, prices and the fiscal settlement of claims."
       ],
       [
         "fungibility-not-quantity",
-        "FOUNDATIONAL ARGUMENT",
-        "Presents the broader non-fungibility hypothesis to interrogate alongside the narrower tests."
+        "THE CENTRAL HYPOTHESIS",
+        "Examines whether the fungibility of purchasing power changes monetary transmission beyond changes in the quantity of money."
+      ],
+      [
+        "designing-money",
+        "MONETARY ARCHITECTURE",
+        "Introduces purpose-bounded money as an institutional alternative and motivates the mechanisms tested in narrower studies."
+      ],
+      [
+        "an-analysis-of-demand-and-supply-under-purpose-bound-money",
+        "MARKET EQUILIBRIUM",
+        "Traces how restricted purchasing rights change household demand, firms’ supply decisions, prices and welfare."
+      ],
+      [
+        "purpose-bound-transfers-idle-capacity-and-inflation",
+        "SPARE-CAPACITY TEST",
+        "Distinguishes genuine extra service provision from pure demand shifts and pass-through of public settlement costs."
+      ],
+      [
+        "beyond-universal-basic-income-can-purpose-bound-transfers-deliver-more-welfare-with-less-inflation",
+        "TRANSFER COMPARISON",
+        "Compares purpose-bound benefits with unrestricted basic income, with particular attention to inflation and welfare trade-offs."
+      ],
+      [
+        "optimal-price-stabilization-with-purpose-bound-money",
+        "DYNAMIC PRICE POLICY",
+        "Develops state-contingent price-stabilization rules and their interaction with supply and conversion constraints."
+      ],
+      [
+        "liquidity-segmentation-and-welfare-resilience",
+        "SHOCK TRANSMISSION",
+        "Tests whether differentiated liquidity can preserve essential provision as demand and supply conditions change."
+      ],
+      [
+        "a-dynamic-general-equilibrium-theory-of-purpose-bound-money",
+        "GENERAL EQUILIBRIUM",
+        "Extends the monetary question to endogenous labor, health, firm entry, investment, sectoral capacity and public finance."
+      ],
+      [
+        "programmable-liquidity-and-recursive-welfare-stabilization",
+        "RECURSIVE COORDINATION",
+        "Explores segmented liquidity, dynamic welfare persistence and stability under recursively adjusting institutional rules."
+      ],
+      [
+        "designing-an-ai-enabled-global-central-bank",
+        "ISSUER DESIGN",
+        "Asks how an AI-assisted supranational monetary institution could verify capacity and govern restricted issuance."
+      ],
+      [
+        "market-design-for-a-federated-purpose-bound-monetary-system",
+        "NETWORK INSTITUTIONS",
+        "Investigates participation, competition and coordination in a federated purpose-bound payment system."
+      ],
+      [
+        "participation-competition-and-commitment-in-purpose-bound-finance",
+        "COMMITMENT CREDIBILITY",
+        "Examines incentives for providers and institutions to participate in a purpose-bound finance network."
+      ],
+      [
+        "scaling-solidarity",
+        "NETWORK AND BACKING",
+        "Connects purpose-bound money to welfare-service networks, provider capacity, fiscal backing and indirect price spillovers."
+      ],
+      [
+        "empirical-foundations-of-a-purpose-bound-economy",
+        "EVIDENCE AND METHODS",
+        "Evaluates the empirical analogues and identification requirements for institutional monetary proposals."
+      ],
+      [
+        "life-beyond-monetary-scarcity",
+        "WELFARE EXTENSION",
+        "Explores the broader societal implications of purpose-restricted purchasing power and the limits of nominal abundance."
+      ],
+      [
+        "supply-before-spending",
+        "CAPACITY FIRST",
+        "Studies credible future demand and capacity verification before restricted purchasing rights become spendable."
       ],
       [
         "beyond-interest-rates",
-        "POLICY COMPARISON",
-        "Assesses what purpose-bound instruments add to existing rate, fiscal, and prudential policy."
+        "BEYOND THE POLICY RATE",
+        "Asks when purpose-bound payments add stabilization value beyond conventional monetary, fiscal and prudential tools."
       ]
     ]
   },
   "persistent-inequality": {
+    "label": "Persistent Inequality",
     "title": "What keeps inequality persistent?",
-    "intro": "Investigate wealth accumulation, cross-domain transmission, incentive-compatible distribution, and the barriers that turn unequal assets into unequal opportunities. Papers are included for an identifiable inequality mechanism, not merely a passing mention of inequality.",
+    "intro": "A route from mathematical and intergenerational mechanisms to practical inequality-reducing institutions. The central distinction is between a gap observed today and the processes that transmit advantage across sectors and generations.",
     "papers": [
       [
         "breaking-the-cycle-of-inequality",
         "START HERE",
-        "Models how disadvantage propagates between housing, education, health, and finance."
+        "Identifies feedback links between finance, housing, health and education that allow disadvantages to reproduce over time."
       ],
       [
         "mechanisms-of-inequality",
         "STRUCTURAL FRAMEWORK",
-        "Explores accumulation dynamics, cross-domain boundaries, and inequality containment."
+        "Models cumulative advantage and explores architectural constraints on the cross-domain propagation of inequality."
       ],
       [
         "optimal-inequality",
-        "DISTRIBUTION THEORY",
-        "Separates mathematical upper bounds from welfare-optimal, incentive-compatible allocations."
+        "DISTRIBUTIONAL LIMITS",
+        "Distinguishes mathematical inequality bounds from incentive-compatible and socially optimal distributions."
       ],
       [
         "from-redistribution-to-design",
-        "INITIAL ENDOWMENTS",
-        "Examines capital-at-birth as an intervention in the distribution of starting assets."
+        "STARTING CAPITAL",
+        "Explores Capital at Birth as an ex-ante intervention in wealth ownership and future economic participation."
       ],
       [
-        "globalizing-access-to-homeownership",
-        "COLLATERAL BARRIER",
-        "Shows how insufficient accumulated wealth can restrict homeownership even with repayment capacity."
+        "from-coercion-to-design",
+        "LABOR AND SUBSISTENCE",
+        "Analyzes how subsistence constraints shape reservation wages, labor participation and transition costs."
       ],
       [
-        "rail-networks-inequality-and-economic-development",
-        "ACCESS WITHOUT OWNERSHIP",
-        "Tests whether shared transport reduces dependence on private wealth for reaching opportunities."
+        "rethinking-microfinance",
+        "LOCAL MARKETS",
+        "Compares the welfare gains from nearby microenterprise entry with the costs of financing and market displacement."
+      ],
+      [
+        "the-economics-of-aesthetic-experience",
+        "ACCESS BEYOND NECESSITY",
+        "Examines how prices, geography and capacity distribute opportunities for cultural and aesthetic experience."
+      ],
+      [
+        "invisible-welfare",
+        "DIGNITY AND TAKE-UP",
+        "Examines whether privacy-preserving delivery can reduce stigma, disclosure burden and non-take-up of social protection."
       ]
     ]
   },
   "institutional-access": {
+    "label": "Institutions & Access",
     "title": "How do institutions expand access?",
-    "intro": "A practical reading route through institutions that widen access to goods, knowledge, services, housing, and mobility. Each paper centers on a specific access constraint or delivery mechanism.",
+    "intro": "Access depends on more than nominal entitlements. Follow international service institutions, practical delivery systems, housing and transport, knowledge and scientific opportunity, and credible cross-border financing.",
     "papers": [
       [
         "access-over-output",
         "START HERE",
-        "Frames development in terms of usable access to goods and services, not output alone."
+        "Distinguishes existing productive output from the institutions and purchasing power needed to make goods accessible."
+      ],
+      [
+        "embassies-of-welfare",
+        "CROSS-BORDER SERVICES",
+        "Proposes transnational public-service outposts and examines how public welfare delivery could cross jurisdictions."
+      ],
+      [
+        "ending-hunger-through-market-design",
+        "FOOD AND NUTRITION",
+        "Treats dependable meal access as a deliverable right supported by contracted food-service capacity."
       ],
       [
         "designing-dignity",
-        "HOUSING QUALITY",
-        "Considers affordable residential living through reusable architectural design and shared amenities."
+        "RESIDENTIAL QUALITY",
+        "Develops affordable high-quality living through reusable architectural design, shared amenities and portability."
       ],
       [
         "globalizing-access-to-homeownership",
-        "HOUSING FINANCE",
-        "Studies mortgage collateral guarantees that may relax entry barriers to ownership."
+        "COLLATERAL ACCESS",
+        "Explores guarantees that assist creditworthy households lacking the accumulated collateral needed to buy a home."
+      ],
+      [
+        "rail-networks-inequality-and-economic-development",
+        "PUBLIC MOBILITY",
+        "Investigates access to existing employment and services without requiring costly private mobility assets."
+      ],
+      [
+        "democratizing-international-travel",
+        "AFFORDABLE AIR TRAVEL",
+        "Studies voluntary charter contracting and demand pooling to widen international travel at acceptable carrier economics."
+      ],
+      [
+        "public-spaces-as-catalysts-for-economic-development",
+        "CIVIC INFRASTRUCTURE",
+        "Evaluates early provision of accessible public spaces as an input into urban welfare and development."
       ],
       [
         "towards-a-global-public-library-network",
         "KNOWLEDGE ACCESS",
-        "Proposes library networks to reduce barriers to learning and information."
+        "Examines a federated library network to reduce the practical costs of learning and information access."
       ],
       [
-        "rail-networks-inequality-and-economic-development",
-        "LOCAL MOBILITY",
-        "Explores how public rail access connects households to jobs and services."
+        "from-credentials-to-competence",
+        "PROFESSIONAL LEARNING",
+        "Tests modular university instruction, independent assessment and employer recognition beyond selective degree admission."
       ],
       [
-        "democratizing-international-travel",
-        "INTERNATIONAL MOBILITY",
-        "Examines collective charter procurement as a way to lower the cost of travel."
+        "globalizing-scientific-opportunity",
+        "RESEARCH OPPORTUNITY",
+        "Proposes university consortia and locally anchored research institutions to broaden scientific and industrial capability."
       ],
       [
-        "ending-hunger-through-market-design",
-        "NUTRITION ACCESS",
-        "Focuses on mechanisms for making nutrition services genuinely deliverable."
+        "land-power-and-access",
+        "ENERGY AND IMPORT ACCESS",
+        "Connects renewable-energy and compute exports to foreign-exchange earnings and household access to traded goods."
       ],
       [
-        "public-spaces-as-catalysts-for-economic-development",
-        "PUBLIC SPACE",
-        "Studies access to high-quality civic space as a development input."
+        "monetary-autonomy-for-global-cities",
+        "URBAN SERVICE ACCESS",
+        "Explores state-contingent access to idle city services under fixed nominal payments and safeguarded procurement."
       ],
       [
-        "embassies-of-welfare",
-        "CROSS-BORDER DELIVERY",
-        "Explores a transnational service-access institution and implementation issues."
+        "purpose-bound-finance-for-global-crises",
+        "EMERGENCY DELIVERY",
+        "Examines cross-border purchasing rights, verifiable real service capacity and treaty-limited crisis interventions."
+      ],
+      [
+        "financing-universal-basic-income-through-global-sovereign-debt-markets",
+        "UNIVERSAL INCOME FINANCE",
+        "Investigates a sovereign-funding partnership that could support household payments through independently funded and enforceable revenue streams."
       ]
     ]
   },
   "financial-resilience": {
+    "label": "Financial Resilience",
     "title": "What makes finance resilient?",
-    "intro": "Follow the distinct failure channels: borrower cash flow, falling collateral, lost credit information, bank runs, sovereign debt, global reserves, and crisis financing. These mechanisms should not be treated as interchangeable.",
+    "intro": "Follow distinct mechanisms of failure and recovery: collateral and cash-flow spirals, bank-run incentives, informational continuity, international liquidity, public debt and supply-price shocks.",
     "papers": [
       [
         "a-new-architecture-for-financial-stability",
         "START HERE",
-        "Links countercyclical collateral support with temporary cash-flow insurance."
+        "Develops countercyclical collateral guarantees and cash-flow insurance to limit forced sales and viable-firm failure."
+      ],
+      [
+        "from-fragility-to-design",
+        "BANK-RUN INCENTIVES",
+        "Analyzes withdrawal coordination and the proposed replacement of demandable claims with purpose-contingent liquidity."
       ],
       [
         "the-global-credit-archive",
         "INFORMATION CONTINUITY",
-        "Asks how borrower information can survive bank failure and support refinancing."
-      ],
-      [
-        "from-fragility-to-design",
-        "BANK RUNS",
-        "Analyzes run incentives and proposed changes to the structure of liquidity claims."
-      ],
-      [
-        "global-sovereign-debt-resets-and-fiscal-resilience",
-        "SOVEREIGN STRESS",
-        "Studies exceptional debt redemption under monetary and fiscal constraints."
-      ],
-      [
-        "productivity-linked-purpose-bound-money-and-sovereign-debt-sustainability",
-        "DEBT SUSTAINABILITY",
-        "Considers verified fiscal substitution and the resource limits of debt retirement."
+        "Separates transferable credit information from a failed intermediary so that other lenders can assess borrowers."
       ],
       [
         "from-triffin-to-a-global-reserve-currency",
-        "GLOBAL LIQUIDITY",
-        "Examines international reserve services, shared backing, and solvency."
+        "INTERNATIONAL LIQUIDITY",
+        "Examines jointly backed reserve instruments, settlement reliability, liquidity support and sovereign commitments."
       ],
       [
-        "purpose-bound-finance-for-global-crises",
-        "CRISIS COORDINATION",
-        "Studies emergency cross-border procurement and jointly supported settlement."
+        "productivity-linked-purpose-bound-money-and-sovereign-debt-sustainability",
+        "ORDINARY DEBT RELIEF",
+        "Tests whether verified fiscal substitution can retire sovereign debt without concealing new obligations."
+      ],
+      [
+        "global-sovereign-debt-resets-and-fiscal-resilience",
+        "EXCEPTIONAL DEBT STRESS",
+        "Studies international creditor redemption, public balance sheets and inflation-constrained fiscal recovery."
+      ],
+      [
+        "mechanism-design-for-countering-stagflation",
+        "COST-SHOCK RESILIENCE",
+        "Explores input allocation under commodity scarcity as a way to limit simultaneous price increases and output loss."
       ]
     ]
   },
   "innovation-guarantees": {
+    "label": "Market Guarantees & Innovation",
     "title": "Can market guarantees accelerate innovation?",
-    "intro": "Explore when credible future demand, contract enforcement, shared infrastructure, and research networks change investment decisions. These papers address innovation incentives and constraints rather than innovation as a generic keyword.",
+    "intro": "Start with enforceable future markets for climate technology; then compare AI demand assurance, shared compute infrastructure, national innovation networks and long-run capital allocation.",
     "papers": [
       [
         "transforming-climate-agreements",
         "START HERE",
-        "Proposes treaty-backed purchasing markets for new environmental technologies."
+        "Proposes treaty-backed advance purchasing markets, performance standards and scale-sensitive rewards for environmental inventions."
       ],
       [
         "programmable-demand-and-innovation-investment",
-        "ADOPTION INCENTIVES",
-        "Applies demand assurances to firms investing in AI-enabled services."
-      ],
-      [
-        "supply-before-spending",
-        "SUPPLY COMMITMENTS",
-        "Models how assured future demand can induce capacity investment and entry."
+        "AI ADOPTION GUARANTEES",
+        "Examines whether enforceable minimum demand can overcome irreversible investment risk in AI-enabled services."
       ],
       [
         "market-design-for-shared-ai-infrastructure",
-        "SHARED COMPUTE",
-        "Studies strategic infrastructure investment and benefits and costs of federated AI capacity."
+        "COMMON INFRASTRUCTURE",
+        "Studies voluntary pooling of computing capacity, investment incentives, efficient dispatch and competition safeguards."
       ],
       [
         "reorganizing-the-national-economy",
-        "INDUSTRIAL NETWORKS",
-        "Explores shared research assets and coordination among competing firms."
-      ],
-      [
-        "globalizing-scientific-opportunity",
-        "RESEARCH CAPACITY",
-        "Connects international university consortia to local scientific and industrial capability."
+        "INDUSTRIAL COORDINATION",
+        "Proposes federated research assets, labor matching and shared innovation facilities while preserving firm competition."
       ],
       [
         "the-computational-organization-of-innovation",
-        "INNOVATION GOVERNANCE",
-        "Examines capital allocation and platform power in large-scale AI innovation."
+        "INNOVATION CAPITAL",
+        "Examines platform concentration, purpose-bound innovation capital and recursive investment governance at AI scale."
+      ],
+      [
+        "recursive-coordination-capitalism",
+        "PROGRAMMABLE COORDINATION",
+        "Extends demand commitments into recursive innovation, adoption and institutional adjustment in AI-scale economies."
+      ],
+      [
+        "redesigning-shareholder-capitalism",
+        "SOCIAL VALUE ALLOCATION",
+        "Studies how external social returns and audited information might reshape investment within shareholder markets."
+      ],
+      [
+        "the-informational-transformation-of-capitalism",
+        "CAPITAL-MARKET INFORMATION",
+        "Examines the transition from price-only signals toward informational coordination and purpose-oriented capital allocation."
+      ],
+      [
+        "reprogramming-capitalism",
+        "BROADER MONETARY DESIGN",
+        "Connects purpose-bound monetary architecture and computational governance to economic coordination and innovation."
+      ],
+      [
+        "reframing-global-fiscal-architecture",
+        "FOUNDATIONAL ARCHITECTURE",
+        "Situates purpose-oriented money, capital endowments and welfare institutions within a broader global fiscal proposal."
+      ],
+      [
+        "protocol-humanism",
+        "BOOK-LENGTH SYNTHESIS",
+        "Synthesizes the broader institutional vision, human guarantees and the governance of innovation in an AI-intensive economy."
       ]
     ]
   },
   "collective-choice": {
+    "label": "Democracy & Collective Choice",
     "title": "How should collective choices be made?",
-    "intro": "This archive currently has one manuscript directly centered on democratic social choice, preference aggregation, and strategic public consultation. Other writings that merely mention governance are deliberately excluded.",
+    "intro": "One author-selected manuscript addresses democratic choice directly. It connects Arrow’s impossibility theorem to preference diversity, information, lobbying, agenda setting and legitimate public consultation.",
     "papers": [
       [
         "the-economics-of-preference-diversity",
         "DIRECT MATCH",
-        "Analyzes Arrow, preference diversity, agenda control, lobbying, and the institutional design of collective choice."
+        "Distinguishes linear rankings and directed circular orders; models strategic participation, lobbying and accountable policy consultation."
       ]
     ]
   }
