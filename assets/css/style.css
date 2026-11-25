@@ -150,3 +150,20 @@ img,svg{max-width:100%}h1,h2,h3,p,blockquote{margin:0}p{font-size:15px}.wrap{max
 .ai-related li a:hover { color: #9c6548; }
 @media(max-width:850px){ .ai-article-cards{grid-template-columns:1fr;} .ai-related{grid-template-columns:1fr;} }
 @media(max-width:620px){ .ai-article-guide{padding:1.25rem 1rem;margin:2rem 0;} .ai-note-details dd{font-size:.84rem;} .ai-guide-bottom-note{display:block;} .ai-guide-bottom-note a{display:block;margin-top:.5rem;} }
+
+/* Explicit research-question reading routes (curated, not keyword search). */
+.curated-route[hidden]{display:none!important}
+.curated-route{margin:-8px 0 41px;padding:34px 38px 27px;background:#e9eee7;border:1px solid #d3ddd2;border-left:3px solid var(--accent)}
+.curated-route-kicker{color:#9a6e53;font-size:10px;font-weight:800;letter-spacing:.15em;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.curated-route-kicker span{font-size:9px;letter-spacing:.08em;color:#718577}
+.curated-route h2{font:400 clamp(30px,3.1vw,44px)/1.15 var(--serif);letter-spacing:-.04em;margin:15px 0 13px}
+.curated-route-intro{max-width:930px;color:#526a5c;line-height:1.82;font-size:13px}
+.curated-route-actions{display:flex;gap:16px 23px;flex-wrap:wrap;align-items:center;margin:23px 0 17px;font-size:11px}
+.curated-route-actions>span{font-weight:700;color:#3d594b;margin-right:auto}
+.curated-route-actions a,.curated-route-clear{font-size:11px;line-height:1.5;font-weight:700;border:0;background:none;color:#30604f;border-bottom:1px solid #9fb4a3;padding:5px 0;cursor:pointer}
+.curated-route-actions a span,.curated-route-clear span{color:var(--accent);padding-left:5px}
+.curated-route-disclosure{padding-top:14px;border-top:1px solid #cad5c9;color:#758479;font-size:10.5px;max-width:950px}
+.curated-paper-note{margin:13px 0 15px;padding:12px 14px 12px 15px;border-left:2px solid #ae7b59;background:#f3f3ec}
+.curated-paper-step{color:#9f6e54;display:block;font-size:9px;font-weight:800;letter-spacing:.1em;margin-bottom:6px}
+.curated-paper-note p{color:#62776b;font-size:11.5px;line-height:1.6}
+@media(max-width:650px){.curated-route{padding:25px 21px;margin-bottom:29px}.curated-route-actions>span{width:100%}.curated-route h2{font-size:31px}.curated-route-kicker{gap:6px}}
